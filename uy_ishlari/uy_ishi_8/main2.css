@@ -1,0 +1,281 @@
+                 /* section one */
+*{
+    box-sizing: border-box;
+    text-align: justify;
+}
+      
+.container{
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.namanganliklar{
+    margin-right: 20px;
+}
+
+.header{
+    display: flex;
+}
+
+.telegram{
+    width:30px;
+    height: 30px;
+}
+
+.sonlar{
+    margin-right: 20px;
+}
+
+.teleg {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    border:3px solid #fff;
+    background-color:#1E96C8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.patpis{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search{
+    margin-left: 340px;
+    margin-right: 30px;
+    border: 1px solid rgb(211, 206, 206);
+    background-color:rgb(211, 206, 206);
+    border-radius: 10px;
+}
+
+.rossiya{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.ru{
+    align-items: center;
+}
+          /* section two */
+
+a{
+    text-decoration: none;
+}
+.ul{
+    padding: 10px;
+    border: solid 2px white;
+    box-shadow: 0px 0px 3px;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+
+.header2{
+    margin-bottom: 50px;
+}
+                   /* section three */
+.big-img{
+    margin-bottom: 50px;
+}
+
+                   /* section four */
+.information-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.information-item{
+    margin-left: 30px;
+    border: solid 2px white;
+    box-shadow: 4px 0px #EB5569;
+    display: flex;
+    width: 600px;
+    height: 90px;
+    align-items: center;
+
+}
+
+.information-item2{
+    display: flex;
+    width: 600px;
+    margin-left: 30px;
+    border: solid 2px white;
+    align-items: center;
+}
+
+.information-about-it{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.information-about-it2{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #DC1E1E;
+}
+
+.information-about-it3{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #05B135;
+}
+
+.information-about-it4{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #000;
+}
+
+.info-about-it2{
+    color: black;
+    font-size: 20px;
+}
+
+.little-inform{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+}
+img{
+    display: flex;
+    margin:10px;
+}
+                   /* section five */
+
+
+.novosti{
+    list-style: none;
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+
+.three-photos1{
+    width: 390px;
+    border-radius: 55px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.data{
+    color: #6B6D97;
+}
+
+.h4{
+    display: flex;
+    width: 316px;
+    color: #000;
+    font-size: 16px;
+}
+                   /* section six */
+.ender-content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-bottons{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-family: "Rubik";
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+.botton{
+    border:5px solid #FE5D29;
+    background-color: #FE5D29;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+}
+
+                        /* part-two */
+
+.part-two-header{
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: 100px;
+
+}
+
+.part-two-big{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-text{
+    color: gray;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.list-1{
+    list-style-type:none;
+    display:block;
+}
+.item{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

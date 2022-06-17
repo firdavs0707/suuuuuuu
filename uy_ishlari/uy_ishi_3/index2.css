@@ -1,0 +1,30 @@
+.personal{
+    color:gray ;
+}
+.price{
+    color:gray ;
+}
+.team{
+    color: yellow;
+}
+.price2{
+    color:yellow;
+}
+.corporate{
+    color: darkred;
+}
+.price3{
+    color: darkred;
+}
+html{
+    background-color:lightgreen;
+}
+.personal{
+    background-color: white;
+}
+.team{
+    background-color: white;
+}
+.corporate{
+    background-color: white;
+}

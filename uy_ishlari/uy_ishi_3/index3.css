@@ -1,0 +1,28 @@
+html{
+    background-color:rgb(182, 84, 66);
+}
+.pro{
+    background-color: white;
+}
+.premium{
+    background-color: white;
+}
+.platinum{
+    background-color: white;
+}
+.pro2{
+    color: brown;
+}
+.premium2{
+    color: brown;
+}
+.platinum2{
+    color: brown;
+}
+.free{
+    border: 7px solid black);
+    background-color:brown;
+}
+.price{
+    color: white;
+}

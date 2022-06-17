@@ -1,0 +1,67 @@
+body{
+    text-align:center;
+}
+.rasm{
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+}
+.ull{
+    display: inline-block;
+}
+.tanlov{
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+}
+
+.boxes {
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+  }
+
+ .botton{
+     border: 5px solid #458FF6 ;
+     background-color: #458FF6;
+     border-radius: 55px;
+     text-decoration: none;
+     color: black;
+} 
+.image{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+.hr{
+    width: 50px;
+}
+.botton2{
+    border: 3px solid #458FF6 ;
+    background-color: white;
+    border-radius: 55px;
+    text-decoration: none;
+    color: black;
+}
+.bigtop{
+    display: block;
+    vertical-align: top;
+}
+.top{
+    vertical-align: top;
+    width: 370px;
+    height: 350px;
+    display: inline-block;
+    border:5px solid rgb(211, 228, 225);
+    text-align: center;
+    border-radius: 55px;
+    
+}
+.text{
+    border: 3px solid white;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}

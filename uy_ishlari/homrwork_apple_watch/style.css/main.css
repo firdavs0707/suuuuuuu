@@ -1,0 +1,214 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 70px;
+}
+
+.container{
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container2{
+    max-width: 1730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list1{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1{
+    margin-right: 20px;
+    color: #8E8E8E;
+    text-decoration: none;
+}
+
+.item1:hover{
+    color: black;
+    
+    padding-bottom: 5px;
+    text-decoration:underline;
+}
+
+.input1{
+    padding-bottom:4px ;
+    border: none;
+    box-shadow: 0px 1px #8E8E8E;
+}
+
+.input1:hover{
+    padding-bottom:4px ;
+    border: none;
+    box-shadow: 0px 2px #000000;
+}
+
+.hero2{
+    width: 1220px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    width: 370px;
+    font-size: 42px;
+}
+
+.img-watch{
+    position: relative;
+    left: 200px;
+    background-image: url('../img/watches.jpg');
+    width: 350px;
+    height: 480px;
+    background-size: 500px;
+}
+
+.hero2-info{
+    width: 450px;
+    padding-left: 20px;
+    box-shadow: -2px 0px 0px #8D8D8D;
+    margin-right: 250px;
+}
+
+.button{
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fafafa;
+    background-color: #EA625C;
+    border: none;
+    border: solid 2px transparent;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.button:hover{
+    color: #EA625C;
+    background-color: #fafafa;
+    border: solid 2px #EA625C;
+    box-shadow: 0px 0px 0px 2px #EA625C;
+}
+
+.hr25{
+    margin-top: 1px;
+    color: #E8E6E6;
+    height: 1px;
+}
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.item2{
+    width: 310px;
+}
+
+.flex{
+    display: flex;
+}
+
+.circle{
+    height: 4px;
+    width: 4px;
+    background-color: #C7C8C8;
+    border-radius: 0%;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 1px;
+    border: #C7C8C8;
+}
+
+.learn-more{
+    display: flex;
+    align-items: center;
+}
+
+.hr3{
+    margin-right:15px ;
+    width: 30px;
+    height: 2px;
+    background-color: #EA625C;
+    color: #EA625C;
+    border: #EA625C;
+    font-size: 16px;
+}
+
+.word-learn{
+    color: #EA625C;
+    font-size: 16px;
+}
+
+.hr3:hover{
+    margin-right:15px ;
+    width: 0px;
+    height: 2px;
+    background-color: #EA625C;
+    color: #EA625C;
+    border: #EA625C;
+    font-size: 16px;
+}
+
+.nike{
+    width: 200px;
+    font-size: 22px;
+}
+
+.img-back{
+    background-image: url('../img/runners.jpg');
+    width: 1700px;
+    height: 900px;
+    background-size: cover;
+}
+
+.nike-2{
+    width: 370px;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.hero2-info-2{
+    width: 450px;
+    padding-left: 20px;
+    box-shadow: -2px 0px 0px #ffffff;
+    margin-right: 250px;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.footer{
+    position: relative;
+    top: 455px;
+    left: 830px;
+    
+}

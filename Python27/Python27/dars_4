@@ -1,0 +1,4 @@
+print("Operator + ", 25 + 5)
+print("Operator - ", 25 - 5)
+print("Operator * ", 25 * 5)
+print("Operator / ", 25 / 5)

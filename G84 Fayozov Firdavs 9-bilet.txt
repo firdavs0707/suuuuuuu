@@ -1,0 +1,93 @@
+G84 Fayozov Firdavs 9-bilet.
+ 
+
+--------------------------------------------------------------------------------------------
+2-misol
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string A,B,C;
+    cout<<"satr kiriting: "; getline(cin,A);
+    for(int i=0; i<A.size(); i++){
+
+    if(! isalpha(A[i]))
+    A[i] ='0';
+
+        else if(isupper(A[i]))
+        A[i] = tolower(A[i]);
+
+        else if(islower(A[i]))
+        A[i] = toupper(A[i]);
+
+    }
+    cout<<A<<endl;
+    return 0;
+}
+
+
+
+---------------------------------------------------------------------------
+3-misol
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A,B,C,M1=0,M2=0,M3=0;
+    cout <<"A-ni kiriting: ";cin>>A;
+    cout <<"B-ni kiriting: ";cin>>B;
+    cout <<"C-ni kiriting: ";cin>>C;
+
+    if((A<B)&&(C<B)){
+    M1=A-B;
+    cout<<"A-nuqtaga b nuqta yaqin"<<endl;
+    cout<<"Va ularning ortasidagi masofa "<<M1<<"ga teng!"<<endl;
+    }
+    else if((A>B)&&(B<C)){
+        M2=A-C;
+    cout<<"A-nuqtaga C nuqta yaqin"<<endl;
+    cout<<"Va ularning ortasidagi masofa "<<M2<<"ga teng!"<<endl;
+    }
+    else if(B==C)
+        cout<<"B-nuqta Va C-nuqta birbiriga teng!"<<endl;
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------
+
+4-misol#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A,C,M2=0,M3=1;
+    cout <<"Massiv uzunligini kiriting: ";cin>>A;
+    for(int i=0; i<A; i++)
+        if(i%3==0)
+        M2++;
+else if(i%7==0)
+    M3++;
+//    if(A   ){
+//    M1=A-B;
+//    cout<<"A-nuqtaga b nuqta yaqin"<<endl;
+//    cout<<"Va ularning ortasidagi masofa "<<M1<<"ga teng!"<<endl;
+//    }
+//    else if((A>B)&&(B<C)){
+//        M2=A-C;
+//    cout<<"A-nuqtaga C nuqta yaqin"<<endl;
+//    cout<<"Va ularning ortasidagi masofa "<<M2<<"ga teng!"<<endl;
+//    }
+//    else if(B==C)
+        cout<<"Siz kiritgan massivada "<<M2<<" ta 3ga karali sonlar bor!"<<endl;
+        cout<<"Siz kiritgan massivada "<<M3<<" ta 7ga karali sonlar bor!"<<endl;
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------------------------------

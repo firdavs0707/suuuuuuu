@@ -1,0 +1,637 @@
+                 /* section one */
+*{
+    box-sizing: border-box;
+    text-align: justify;
+}
+      
+.container{
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.header-content{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.news{
+    color: #FFFFFF;
+}
+
+.namanganliklar{
+    margin-right: 20px;
+}
+
+.header1{
+    display: flex;
+    background-color:#dddcdc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header2{
+    display: flex;
+}
+
+.telegram{
+    width:30px;
+    height: 30px;
+}
+
+.sonlar{
+    padding-top: 8px;
+    margin-right: 20px;
+    font-size: 17px;
+    color: gray;
+}
+.span-2{
+    color: #133C82;
+    font-size: 19px;
+}
+
+.span-3{
+    margin-left: 5px;
+}
+
+.teleg {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    border:3px solid #fff;
+    background-color:#1E96C8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.patpis{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search{
+    margin-left: 300px;
+    margin-right: 30px;
+    border: 1px solid #dddcdc;
+    background-color:#dddcdc;
+    border-radius: 10px;
+}
+
+.rossiya{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+          /* section two */
+
+a{
+    text-decoration: none;
+}
+.ul{
+    width: 1205px;
+    padding: 10px;
+    border: solid 2px white;
+    box-shadow: 0px 0px 3px;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+
+.li-li{
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.li-li2{
+    color: #2463B1;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.big-input{
+    width: 500px;
+    height: 500px;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.input{
+    width: 600px;
+height: 50px;
+border: 2px solid #285193;
+border-radius: 5px;
+}
+
+.input2{
+border: 2px solid #285193;
+border-radius: 5px;
+}
+
+.input3{
+    width: 221px;
+    height: 50px;
+    box-sizing: border-box;
+background: #FBFBFB;
+border: 2px solid #285193;
+border-radius: 5px;
+}
+
+.password{
+width: 88px;
+height: 29px;
+margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 29px;
+color: #000000;
+}
+
+.button-2{
+    box-sizing: border-box;
+width: 221px;
+height: 50px;
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+border-radius: 5px;
+}
+
+.send{
+    width: 99px;
+height: 21px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin-left: 55px;
+}
+
+.section-two{
+    box-sizing: border-box;
+
+position: absolute;
+width: 510px;
+height: 280px;
+margin-left: 709px;
+background: #FFFFFF;
+border: 2px solid #BCC3CD;
+border-radius: 5px;
+}
+
+.logo
+
+.header2{
+    margin-bottom: 50px;
+}
+                   /* section three */
+.big-img{
+    margin-bottom: 50px;
+}
+
+                   /* section four */
+.information-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.information-item{
+    margin-left: 30px;
+    border: solid 2px white;
+    box-shadow: 4px 0px #EB5569;
+    display: flex;
+    width: 600px;
+    height: 90px;
+    align-items: center;
+
+}
+
+.information-item2{
+    display: flex;
+    width: 600px;
+    margin-left: 30px;
+    border: solid 2px white;
+    align-items: center;
+}
+
+.information-about-it{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.information-about-it2{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #DC1E1E;
+}
+
+.information-about-it3{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #05B135;
+}
+
+.information-about-it4{
+    font-family: 'Rubik';
+    display: flex;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #000;
+}
+
+.info-about-it2{
+    color: black;
+    font-size: 20px;
+}
+
+.little-inform{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+}
+img{
+    display: flex;
+    margin:10px;
+}
+                   /* section five */
+
+
+.novosti{
+    list-style: none;
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+
+.three-photos1{
+    width: 390px;
+    border-radius: 55px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.data{
+    color: #6B6D97;
+}
+
+.h4{
+    display: flex;
+    width: 316px;
+    color: #000;
+    font-size: 16px;
+}
+                   /* section six */
+.ender-content{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-bottons2{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-family: "Rubik";
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+.two-bottons{
+    width: 264px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    height: 42px;
+}
+
+.botton{
+    width: 250px;
+    height: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+
+
+.img-sana{
+    margin-left: 55px;
+    margin-right: 0;
+}
+
+.part-two-header{
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+
+.paragraph{
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.span2{
+    color: #133C82;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+    word-spacing: 4px;
+}
+
+.part-two-header2{
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.part-two-big{
+    display: flex;
+    margin: 0;
+}
+
+.info-text{
+    color: gray;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.list-1{
+    list-style-type:none;
+    display: block;
+    margin: 0;
+}
+.item-1{
+    display: flex;
+}
+
+.sana{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: gray;
+}
+
+.sana-info{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: start;
+}
+
+.h4-2{
+    
+    font-size: large;
+}
+
+.part-two-small-2{
+    padding-left: 10px;
+}
+
+.popularnie{
+    
+    border: 2px solid #c7cabbf1;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.popular-text{
+    width: 260px;
+    font-weight: 400;
+}
+
+.sana-2{
+    margin-bottom: 36px;
+    color: gray;
+    font-size: 15px;
+}
+
+.box-shadow{
+    box-shadow: 0px 2px wheat;
+    width: 300px;
+}
+
+.button{
+    width: 211px;
+    height: 42px;
+    justify-content: center;
+    border: 4px solid #295093;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 31px;
+    padding-right: 31px;
+    text-align: center;
+    padding-bottom: 4%;
+    background-color: #295093;
+    color: #fff;
+    margin-left: 350px;
+}
+
+.installer-content{
+    display:flex;
+}
+.info-install{
+    width: 526px;
+    height: 30px;
+    left: 364px;
+    top: 2381px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #295093;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.info-install2{
+    width: 516px;
+    height: 44px;
+    left: 364px;
+    top: 2421px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333; 
+    text-align: left;
+}
+
+.appStore-playMarket{
+    display: flex;
+}
+
+.blue-content{
+    margin-top: 35px;
+    display: flex;
+    width: 1220px;
+    height: 230px;
+    background: #295093;
+}
+
+.header-blue{
+    margin: 20px;
+    margin-right: 140px;
+    width: 194px;
+    height: 38px;
+    border-radius: 5px;
+    width: 250px;
+    height: 38px;
+    color: white;
+    font-size: 22px;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-in-blue {
+    margin-top: 28px;
+    width: 659px;
+    height: 19px;
+    left: 511px;
+    top: 2600px;
+    text-align: left;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.teleg2 {
+    width: 132px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    border:3px solid #fff;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.patpis2 {
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-style: normal;
+    color: #295093;
+}
+
+.telegram2 {
+    width:25px;
+    height: 25px;
+}
+
+.hr-hr{
+    margin-top: 32px;
+    width: 1200px;
+    height: 3px;
+    background-color: #133C82;
+    color: #133C82;
+}
+
+.prosto{
+    display: flex;
+}
+
+.o-sayte{
+    margin-right: 111px;
+    height: 121px;
+    left: 118px;
+    top: 2660px;
+    text-align: left;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 355px;
+}
+
+.chance{
+    width: 146px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-right: 115px;
+}
+
+.chance2{
+    width: 196px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-right: 115px;
+}
+
